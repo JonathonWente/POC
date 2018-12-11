@@ -1,0 +1,38 @@
+{% extends "layout.html" %}
+{% block content1 %}
+<form class="form-panel">
+  <table>
+    <tr>
+        <td>
+            <input type="text" placeholder="Repo Name" style="height: 50px; font-size: 18px;">
+        </td>
+    </tr>   
+    <tr>
+        <td>
+            <input type="text" placeholder="Project Name" style="height: 50px; font-size: 18px;">
+        </td>
+    <tr>
+        <td>
+            <input type="text" placeholder="Directory Path" style="height: 50px; font-size: 18px;">
+        </td>
+    </tr>
+    <tr>
+      <td>
+        <input type="text" placeholder="Maintainer Name" style="height: 50px; font-size: 18px;">
+      </td>
+    </tr>
+  </table>
+</form>
+{% endblock content1 %}
+
+{% block content2 %}
+<form class="form-panel">
+    <select style="width: 300px; height: 50px; font-size: 18px">
+        <option value="project1">Project1</option>
+        <option value="project2">Project2</option>
+        <option value="project3">Project3</option>
+        <option value="project4">Project4</option>
+        <option value="project5">Project5</option>
+      </select>
+</form>
+{% endblock content2%}
